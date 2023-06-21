@@ -1,4 +1,4 @@
 
 .DS_Store
-assets/MyEBirdData.csv
+data/MyEBirdData.csv
 node_modules/

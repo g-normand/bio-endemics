@@ -1,0 +1,16 @@
+[
+    {
+        "logo": "ec",
+        "name": "Ecuador endemics"
+    },
+    {
+        "logo": "paramo",
+        "name": "Central Andean páramo",
+        "url":"http://datazone.birdlife.org/eba/factsheet/77"
+    },
+    {
+        "logo": "southern_andes",
+        "name": "Southern Central Andes",
+        "url":"http://datazone.birdlife.org/eba/factsheet/48"
+    }
+]
