@@ -30,8 +30,6 @@ function processFile( file, size ){
 			if ( row.data[0]['Common Name'] != undefined  && row.data[0]['Common Name'].indexOf('hybrid')<0 && row.data[0]['Common Name'].indexOf('/')<0 && row.data[0]['Common Name'].indexOf('sp.')<0 ){
 				row.data[0]['Common Name'] = row.data[0]['Common Name'].replace(/ *\([^)]*\) */g, "");
 				data.push(row.data[0]);
-			} else{
-				//console.log(row.data[0]['Common Name'])
 			}
 			progress = progress + Object.values(row.data[0]).join(',').length;
 
@@ -41,13 +39,9 @@ function processFile( file, size ){
 			handler.pause();
 
 			pgbar.style.width = percent + '%'; 
-			//pgbar.innerHTML = percent * 1  + '%';
 			setTimeout(function(){handler.resume()},0)
 		},
 		complete: function() {
-			//data = results.data;
-			//fields = results.meta.fields;
-
 			var checklists = data.reduce( (acc, cur) =>  acc.indexOf(cur['Submission ID'])<0 ? acc.concat(cur['Submission ID']) : acc , [] )
 			var species = data.reduce( (acc, cur) =>  acc.indexOf(cur['Common Name'])<0 ? acc.concat(cur['Common Name']) : acc , [] )
 			jQuery('#spCount').html(numberWithCommas(species.length))
@@ -104,7 +98,6 @@ footerfill = function(e, l){
 			}
 
 			if (e.target.hotspot.length>0){
-				//var txt ='<a href="https://ebird.org/hotspot/'+e.target.hotspot+'" target="_blank"><img class="img-hotspot" title="eBird hotspot page" src="https://zoziologie.raphaelnussbaumer.com/assets/SeeYourObservations/images/hotspot-icon-hotspot.png"></a>';
 				var txt ='<a href="https://ebird.org/hotspot/'+e.target.hotspot+'" target="_blank" id="stattitle-name">'+l.Location.toUpperCase()+'</a>';
 				txt += '<a href="https://ebird.org/targets?&r1='+e.target.hotspot+'" target="_blank" title="Your target list" class="stattitle-link"><i class="far fa-lg fa-dot-circle img-hotspot"></i> Target</a>'
 				txt += '<a href="https://ebird.org/MyEBird?cmd=list&r='+e.target.hotspot+'" target="_blank" title="Your exact list" class="stattitle-link"><i class="fas fa-lg fa-list img-hotspot"></i> List</a>'

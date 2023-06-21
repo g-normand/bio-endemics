@@ -24,7 +24,7 @@
     "vue-cookie": "^1.1.4",
     "vue-multiselect": "^2.1.6",
     "vite": "^4.0.4",
-    "@vitejs/plugin-vue2": "^2.2.0",
+    "@vitejs/plugin-vue2": "^2.2.0"
   },
   "devDependencies": {
     "eslint": "^8.31.0",
