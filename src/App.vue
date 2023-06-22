@@ -15,7 +15,7 @@ import regions from "./assets/regions.json";
       class="regions-button"
       @click="changeRegion(r)"
     >
-      <b-img :src="'src/assets/ec.png'" class="mr-2 h-16" />
+      <b-img src="src/assets/binoculars-silhouette.png" class="mr-2 h-16" />
       {{ r.name }}
     </b-button>
   </b-button-group>

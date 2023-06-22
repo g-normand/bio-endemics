@@ -1,9 +1,9 @@
 <template>
-<b-container fluid class="h-100 bg-light" >
+<b-container fluid class="h-100 bg-light overflow-auto" >
   <b-row class="h-100">
     <b-col class="h-100 col-xs-12 md-6 col-lg-6 d-flex flex-column py-2">
        <b-card v-if="region.name">
-         <b-card-body class="overflow-auto flex-grow-1">
+         <b-card-body>
            <h3>Your checklist for {{ region.name }} ({{nb_species_seen()}} / {{ species_list_table().length }})</h3>
            <b v-if="region.url">More information about the region  : <a :href="region.url" 
                 target="_blank">here</a></b>

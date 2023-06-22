@@ -2,10 +2,6 @@
     <div class="footer">
         <div class="container">
             <div class="row">
-                <div class="col-xs" id="col-top-line"><span id="stattitle"><span
-                    id="stattitle-name">WORLD</span></span></div>
-            </div>
-            <div class="row">
                 <div class="col-sm count"><img class="icon-bottom" src="../assets/bird-albatross-flying-shape-2.png">
                     <span class="nb_counts">{{ nb_species }} </span><br>Species observed</div>
                 <div class="col-sm count"><img class="icon-bottom" src="../assets/list.png">
