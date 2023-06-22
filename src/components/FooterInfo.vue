@@ -31,9 +31,9 @@ export default {
   },
   created: function() {
     eventBus.$on("userdata-changed", (data) => {
-      this.nb_species = data['nb_species']; 
-      this.nb_checklists = data['nb_checklists']; 
-      this.nb_obs = data['nb_obs']; 
+      this.nb_species = data.nb_species; 
+      this.nb_checklists = data.nb_checklists; 
+      this.nb_obs = data.nb_obs; 
       eventBus.$off("userdata-changed");
     });
   },

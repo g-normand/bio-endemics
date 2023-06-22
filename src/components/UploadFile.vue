@@ -39,13 +39,14 @@
 <script>
 import axios from 'axios';
 import { eventBus } from "../main";
+import UserData from "./userdata.js"
 
 export default {
   data() {
     return {
       isModalVisible: true,
 	    showMyPg: false,
-      userData : {},
+      userData : new UserData(),
       pgbar_width: '0%',
     }
   },
@@ -60,7 +61,6 @@ export default {
       const data = [];
 	    this.showMyPg = true;
       const pgbar = this.$refs.pgbar;
-      console.log(pgbar)
       
       this.$papa.parse(file, {
         header:true,
@@ -77,25 +77,17 @@ export default {
           handler.pause();
 
           pgbar.style.width = percent + '%'; 
-          console.log(percent);
           setTimeout(function(){handler.resume()},0)
         },
         complete: () => {
-          var checklists = data.reduce( (acc, cur) =>  acc.indexOf(cur['Submission ID'])<0 ? acc.concat(cur['Submission ID']) : acc , [] )
-          var species = data.reduce( (acc, cur) =>  acc.indexOf(cur['Common Name'])<0 ? acc.concat(cur['Common Name']) : acc , [] )
-          this.userData['species'] = species;
-          this.userData['nb_species'] = this.numberWithCommas(species.length);
-          this.userData['nb_obs'] = this.numberWithCommas(data.length);
-          this.userData['nb_checklists'] = this.numberWithCommas(checklists.length);
+          this.userData = new UserData(data);
           eventBus.$emit("userdata-changed", this.userData);
           this.isModalVisible = false;
 	        this.showMyPg = false;
     },
     });
     },
-    numberWithCommas(x) {
-      return x.toString().replace(/\B(?=(\d{3})+(?!\d))/g, "'");
-    }
+
   },
   mounted: function () {   
     if ( window.location.search.substring(1).indexOf('me') !== -1 ){
