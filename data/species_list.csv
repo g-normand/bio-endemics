@@ -3,7 +3,7 @@ El Oro Parakeet,Pyrrhura orcesi,elopar1,Ecuador mainland endemics
 Black-breasted Puffleg,Eriocnemis nigrivestis,blbpuf3,Ecuador mainland endemics
 Violet-throated Metaltail,Metallura baroni,vitmet1,Ecuador mainland endemics
 Esmeraldas Woodstar,Chaetocercus berlepschi,esmwoo2,Ecuador mainland endemics
-Ecuadorian Tapaculo,Scytalopus robinsonii,ecutap1,Ecuador mainland endemics
+Ecuadorian Tapaculo,Scytalopus robbinsi,ecutap1,Ecuador mainland endemics
 Pale-headed Brushfinch,Atlapetes pallidiceps,phbfin1,Ecuador mainland endemics
 Blue-throated Hillstar,Oreotrochilus cyanolaemus,buthil1,Ecuador mainland endemics
 Violet-throated Metaltail,Metallura baroni,vitmet1,Central Andean páramo
@@ -14,8 +14,8 @@ Rufous-fronted Parakeet,Bolborhynchus ferrugineifrons,rufpar1,Central Andean pá
 Stout-billed Cinclodes,Cinclodes excelsior,stbcin1,Central Andean páramo
 Mouse-colored Thistletail,Asthenes griseomurina,mocthi1,Central Andean páramo
 Chestnut-bellied Cotinga,Doliornis remseni,chbcot1,Central Andean páramo
-Masked Mountain-tanager,Tephrophilus wetmorei,mamtan1,Central Andean páramo
-Stolzmann's Tanager,Urothraupis stolzmanni,bbbtan1,Central Andean páramo
+Masked Mountain Tanager,Tephrophilus wetmorei,mamtan1,Central Andean páramo
+Black-backed Bush Tanager,Urothraupis stolzmanni,bbbtan1,Central Andean páramo
 Green-bearded Helmetcrest,Oxypogon guerinii,gnbhel1,Central Andean páramo
 Bearded Guan,Penelope barbata,beagua1,Southern Central Andes
 Purple-throated Sunangel,Heliangelus viola,putsun1,Southern Central Andes
@@ -31,7 +31,7 @@ Galapagos Hawk,Buteo galapagoensis,galhaw1,Galápagos Islands
 Galapagos Flycatcher,Myiarchus magnirostris,galfly1,Galápagos Islands
 Floreana Mockingbird,Mimus trifasciatus,chamoc1,Galápagos Islands
 Galapagos Mockingbird,Mimus parvulus,galmoc1,Galápagos Islands
-Espanola Mockingbird,Mimus macdonaldi,hoomoc1,Galápagos Islands
+Española Mockingbird,Mimus macdonaldi,hoomoc1,Galápagos Islands
 San Cristobal Mockingbird,Mimus melanotis,chamoc2,Galápagos Islands
 Green Warbler-Finch,Certhidea olivacea,warfin1,Galápagos Islands
 Vegetarian Finch,Platyspiza crassirostris,vegfin2,Galápagos Islands
@@ -59,14 +59,14 @@ Cocha Antshrike,Thamnophilus praecox,cocant1,Upper Amazon-Napo lowlands
 White-masked Antbird,Pithys castaneus,whmant2,Upper Amazon-Napo lowlands
 Black-tailed Antbird,Myrmoborus melanurus,bltant1,Upper Amazon-Napo lowlands
 Ochre-striped Antpitta,Grallaria dignissima,ocsant1,Upper Amazon-Napo lowlands
-Orange-crested Manakin,Heterocercus aurantiivertex,orcman3,Upper Amazon-Napo lowlands
-Golden-winged Tody-flycatcher,Poecilotriccus calopterus,gowtof1,Upper Amazon-Napo lowlands
+Orange-crowned Manakin,Heterocercus aurantiivertex,orcman3,Upper Amazon-Napo lowlands
+Golden-winged Tody-Flycatcher,Poecilotriccus calopterus,gowtof1,Upper Amazon-Napo lowlands
 Olive-chested Flycatcher,Myiophobus cryptoxanthus,olcfly1,Upper Amazon-Napo lowlands
 Iquitos Gnatcatcher,Polioptila clementsi,iqugna1,Upper Amazon-Napo lowlands
 Ecuadorian Cacique,Cacicus sclateri,ecucac1,Upper Amazon-Napo lowlands
 Berlepsch's Tinamou,Crypturellus berlepschi,bertin1,Chocó
 Baudo Guan,Penelope ortoni,baugua1,Chocó
-Dark-backed Wood-quail,Odontophorus melanonotus,dbwqua1,Chocó
+Dark-backed Wood-Quail,Odontophorus melanonotus,dbwqua1,Chocó
 Dusky Pigeon,Patagioenas goodsoni,duspig2,Chocó
 Choco Poorwill,Nyctiphrynus rosenbergi,chopoo1,Chocó
 Gorgeted Sunangel,Heliangelus strophianus,gorsun1,Chocó
@@ -79,23 +79,23 @@ Velvet-purple Coronet,Boissonneaua jardini,vepcor1,Chocó
 Purple-bibbed Whitetip,Urosticte benjamini,pubwhi1,Chocó
 Empress Brilliant,Heliodoxa imperatrix,empbri1,Chocó
 Purple-chested Hummingbird,Polyerata rosenbergi,puchum1,Chocó
-Banded Ground-cuckoo,Neomorphus radiolosus,bagcuc1,Chocó
+Banded Ground-Cuckoo,Neomorphus radiolosus,bagcuc1,Chocó
 Blue-tailed Trogon,Trogon comptus,buttro1,Chocó
 Sooty-capped Puffbird,Bucco noanamae,socpuf1,Chocó
 Choco Toucan,Ramphastos brevis,chotou1,Chocó
-Plate-billed Mountain-toucan,Andigena laminirostris,pbmtou1,Chocó
+Plate-billed Mountain-Toucan,Andigena laminirostris,pbmtou1,Chocó
 Orange-fronted Barbet,Capito squamatus,orfbar1,Chocó
 Five-colored Barbet,Capito quinticolor,ficbar1,Chocó
 Toucan Barbet,Semnornis ramphastinus,toubar1,Chocó
 Lita Woodpecker,Piculus litae,litwoo1,Chocó
 Choco Woodpecker,Dryobates chocoensis,chowoo1,Chocó
-Plumbeous Forest-falcon,Micrastur plumbeus,plffal1,Chocó
+Plumbeous Forest-Falcon,Micrastur plumbeus,plffal1,Chocó
 Rose-faced Parrot,Pyrilia pulchra,rofpar2,Chocó
 Bicolored Antvireo,Dysithamnus occidentalis,bicant4,Chocó
 Stub-tailed Antbird,Sipia berlepschi,sttant3,Chocó
-Rufous-crowned Pittasoma,Pittasoma rufopileatum,rucant3,Chocó
+Rufous-crowned Antpitta,Pittasoma rufopileatum,rucant3,Chocó
 Yellow-breasted Antpitta,Grallaria flavotincta,yebant1,Chocó
-Narino Tapaculo,Scytalopus vicinior,nartap2,Chocó
+Nariño Tapaculo,Scytalopus vicinior,nartap2,Chocó
 Uniform Treehunter,Thripadectes ignobilis,unitre1,Chocó
 Fulvous-dotted Treerunner,Margarornis stellatus,fudtre1,Chocó
 Club-winged Manakin,Machaeropterus deliciosus,clwman1,Chocó
@@ -104,15 +104,15 @@ Orange-breasted Fruiteater,Pipreola jucunda,orbfru1,Chocó
 Long-wattled Umbrellabird,Cephalopterus penduliger,lowumb1,Chocó
 Choco Vireo,Vireo masteri,chovir1,Chocó
 Beautiful Jay,Cyanolyca pulchra,beajay1,Chocó
-Munchique Wood-wren,Henicorhina negreti,munwow1,Chocó
+Munchique Wood-Wren,Henicorhina negreti,munwow1,Chocó
 Black Solitaire,Entomodestes coracinus,blasol1,Chocó
 Yellow-collared Chlorophonia,Chlorophonia flavirostris,yecchl1,Chocó
 Tanager Finch,Oreothraupis arremonops,tanfin1,Chocó
-Dusky Bush-tanager,Chlorospingus semifuscus,dubtan1,Chocó
+Dusky Chlorospingus,Chlorospingus semifuscus,dubtan1,Chocó
 Red-bellied Grackle,Hypopyrrhus pyrohypogaster,rebgra1,Chocó
-Crested Ant-tanager,Habia cristata,cratan1,Chocó
+Crested Ant-Tanager,Habia cristata,cratan1,Chocó
 Purplish-mantled Tanager,Iridosornis porphyrocephalus,pumtan2,Chocó
-Black-chinned Mountain-tanager,Anisognathus notabilis,bcmtan2,Chocó
+Black-chinned Mountain Tanager,Anisognathus notabilis,bcmtan2,Chocó
 Glistening-green Tanager,Chlorochrysa phoenicotis,glgtan1,Chocó
 Multicolored Tanager,Chlorochrysa nitidissima,multan1,Chocó
 Yellow-green Tanager,Bangsia flavovirens,ygbtan1,Chocó
@@ -126,7 +126,7 @@ Scarlet-breasted Dacnis,Dacnis berlepschi,scbdac1,Chocó
 Turquoise Dacnis,Dacnis hartlaubi,turdac1,Chocó
 Indigo Flowerpiercer,Diglossa indigotica,indflo1,Chocó
 Chestnut-bellied Flowerpiercer,Diglossa gloriosissima,chbflo1,Chocó
-Chestnut Wood-quail,Odontophorus hyperythrus,chwqua1,Northern Central Andes
+Chestnut Wood-Quail,Odontophorus hyperythrus,chwqua1,Northern Central Andes
 Black-thighed Puffleg,Eriocnemis derbyi,bltpuf1,Northern Central Andes
 Rusty-faced Parrot,Hapalopsittaca amazonina,rufpar2,Northern Central Andes
 Indigo-winged Parrot,Hapalopsittaca fuertesi,inwpar1,Northern Central Andes
@@ -145,7 +145,7 @@ Speckle-chested Piculet,Picumnus steindachneri,spcpic1,Ecuador-Peru East Andes
 White-necked Parakeet,Pyrrhura albipectus,whnpar1,Ecuador-Peru East Andes
 Bicolored Antvireo,Dysithamnus occidentalis,bicant4,Ecuador-Peru East Andes
 Peruvian Antpitta,Grallaricula peruviana,perant1,Ecuador-Peru East Andes
-Equatorial Greytail,Xenerpestes singularis,equgra1,Ecuador-Peru East Andes
+Equatorial Graytail,Xenerpestes singularis,equgra1,Ecuador-Peru East Andes
 Yellow-headed Manakin,Chloropipo flavicapilla,yehman2,Ecuador-Peru East Andes
 Black-chested Fruiteater,Pipreola lubomirskii,blcfru1,Ecuador-Peru East Andes
 Masked Fruiteater,Pipreola pulchra,masfru1,Ecuador-Peru East Andes

@@ -11,5 +11,18 @@ git clone git@github.com:g-normand/bio-endemics.git
 cd bio-endemics
 npm install
 
-npm run processSpecies
+FOR DEV:
 npm run dev
+
+FOR PROD:
+npm run build
+scp -r dist/* guiguide@ssh-guiguide.alwaysdata.net:/home/guiguide/www/bio_endemics/
+```
+
+To add regions:
+```
+Add region in regions.json
+
+Add species in species_list.csv
+npm run processSpecies
+```
