@@ -11,10 +11,12 @@
   },
   "dependencies": {
     "@vitejs/plugin-vue": "^4.2.3",
+    "@vue/compat": "^3.2.41",
+    "axios": "^1.4.0",
     "bootstrap-vue": "npm:@ankurk91/bootstrap-vue@^3.0.2",
     "vite": "^4.3.9",
     "vue": "^3.3.4",
-    "@vue/compat": "^3.2.41"
+    "vue-papa-parse": "^3.1.0"
   },
   "devDependencies": {
     "csvtojson": "^2.0.10"

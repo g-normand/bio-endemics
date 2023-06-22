@@ -1,8 +1,8 @@
 <template>
-<b-container fluid class="h-100 bg-light">
+<b-container fluid class="h-100 bg-light" >
   <b-row class="h-100">
     <b-col class="h-100 col-xs-12 md-6 col-lg-6 d-flex flex-column py-2">
-       <b-card>
+       <b-card v-if="region.name">
          <b-card-body class="overflow-auto flex-grow-1">
            <h3>Your checklist for {{ region.name }} ({{ species_list_length() }})</h3>
            <b v-if="region.url">More information about the region  : <a :href="region.url" 
@@ -35,6 +35,9 @@
             </template>
           </b-table>
         </b-card-body>
+      </b-card>
+      <b-card fluid class="h-100 bg-light" v-if="!region.name">
+        Please select a region
       </b-card>
     </b-col>
   </b-row>

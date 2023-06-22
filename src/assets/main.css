@@ -48,7 +48,7 @@ html, body, .initial-content{
 	text-decoration: none;
 	border-bottom: 1px solid white;
 }
-#chCount, #obsCount,#spCount{
+.nb_counts{
 	line-height: 32px;
 	font-size: 35px;
 	font-weight: bold;
