@@ -1,49 +1,49 @@
 common_name,scientific_name,species_code,region
-El Oro Parakeet ,Pyrrhura orcesi,elopar1,Ecuador endemics
-Black-breasted Puffleg ,Eriocnemis nigrivestis,blbpuf3,Ecuador endemics
-Violet-throated Metaltail ,Metallura baroni,vitmet1,Ecuador endemics
-Esmeraldas Woodstar,Chaetocercus berlepschi,esmwoo2,Ecuador endemics
-Ecuadorian Tapaculo ,Scytalopus robinsonii,ecutap1,Ecuador endemics
-Pale-headed Brushfinch,Atlapetes pallidiceps,phbfin1,Ecuador endemics
-Blue-throated Hillstar,Oreotrochilus cyanolaemus,buthil1,Ecuador endemics
-Violet-throated Metaltail ,Metallura baroni,vitmet1,Central Andean páramo
-Neblina Metaltail ,Metallura odomae,nebmet1,Central Andean páramo
-Black-breasted Puffleg ,Eriocnemis nigrivestis,blbpuf3,Central Andean páramo
-Carunculated Caracara ,Daptrius carunculatus,carcar1,Central Andean páramo
-Rufous-fronted Parakeet ,Bolborhynchus ferrugineifrons,rufpar1,Central Andean páramo
-Stout-billed Cinclodes ,Cinclodes excelsior,stbcin1,Central Andean páramo
-Mouse-colored Thistletail ,Asthenes griseomurina,mocthi1,Central Andean páramo
-Chestnut-bellied Cotinga ,Doliornis remseni,chbcot1,Central Andean páramo
-Masked Mountain-tanager ,Tephrophilus wetmorei,mamtan1,Central Andean páramo
-Stolzmann's Tanager ,Urothraupis stolzmanni,bbbtan1,Central Andean páramo
+El Oro Parakeet,Pyrrhura orcesi,elopar1,Ecuador mainland endemics
+Black-breasted Puffleg,Eriocnemis nigrivestis,blbpuf3,Ecuador mainland endemics
+Violet-throated Metaltail,Metallura baroni,vitmet1,Ecuador mainland endemics
+Esmeraldas Woodstar,Chaetocercus berlepschi,esmwoo2,Ecuador mainland endemics
+Ecuadorian Tapaculo,Scytalopus robinsonii,ecutap1,Ecuador mainland endemics
+Pale-headed Brushfinch,Atlapetes pallidiceps,phbfin1,Ecuador mainland endemics
+Blue-throated Hillstar,Oreotrochilus cyanolaemus,buthil1,Ecuador mainland endemics
+Violet-throated Metaltail,Metallura baroni,vitmet1,Central Andean páramo
+Neblina Metaltail,Metallura odomae,nebmet1,Central Andean páramo
+Black-breasted Puffleg,Eriocnemis nigrivestis,blbpuf3,Central Andean páramo
+Carunculated Caracara,Daptrius carunculatus,carcar1,Central Andean páramo
+Rufous-fronted Parakeet,Bolborhynchus ferrugineifrons,rufpar1,Central Andean páramo
+Stout-billed Cinclodes,Cinclodes excelsior,stbcin1,Central Andean páramo
+Mouse-colored Thistletail,Asthenes griseomurina,mocthi1,Central Andean páramo
+Chestnut-bellied Cotinga,Doliornis remseni,chbcot1,Central Andean páramo
+Masked Mountain-tanager,Tephrophilus wetmorei,mamtan1,Central Andean páramo
+Stolzmann's Tanager,Urothraupis stolzmanni,bbbtan1,Central Andean páramo
 Green-bearded Helmetcrest,Oxypogon guerinii,gnbhel1,Central Andean páramo
-Bearded Guan ,Penelope barbata,beagua1,Southern Central Andes
-Purple-throated Sunangel ,Heliangelus viola,putsun1,Southern Central Andes
-Rainbow Starfrontlet ,Coeligena iris,raista1,Southern Central Andes
-Red-faced Parrot ,Hapalopsittaca pyrrhops,refpar2,Southern Central Andes
-Giant Antpitta ,Grallaria gigantea,giaant1,Southern Central Andes
-Crescent-faced Antpitta ,Grallaricula lineifrons,crfant1,Southern Central Andes
-Orange-banded Flycatcher ,Nephelomyias lintoni,orbfly1,Southern Central Andes
-White-rimmed Brushfinch ,Atlapetes leucopis,wrbfin1,Southern Central Andes
-Galapagos Dove ,Zenaida galapagoensis,galdov1,Galápagos Islands
-Galapagos Rail ,Laterallus spilonota,galrai1,Galápagos Islands
-Galapagos Hawk ,Buteo galapagoensis,galhaw1,Galápagos Islands
-Galapagos Flycatcher ,Myiarchus magnirostris,galfly1,Galápagos Islands
-Floreana Mockingbird ,Mimus trifasciatus,chamoc1,Galápagos Islands
-Galapagos Mockingbird ,Mimus parvulus,galmoc1,Galápagos Islands
-Espanola Mockingbird ,Mimus macdonaldi,hoomoc1,Galápagos Islands
-San Cristobal Mockingbird ,Mimus melanotis,chamoc2,Galápagos Islands
+Bearded Guan,Penelope barbata,beagua1,Southern Central Andes
+Purple-throated Sunangel,Heliangelus viola,putsun1,Southern Central Andes
+Rainbow Starfrontlet,Coeligena iris,raista1,Southern Central Andes
+Red-faced Parrot,Hapalopsittaca pyrrhops,refpar2,Southern Central Andes
+Giant Antpitta,Grallaria gigantea,giaant1,Southern Central Andes
+Crescent-faced Antpitta,Grallaricula lineifrons,crfant1,Southern Central Andes
+Orange-banded Flycatcher,Nephelomyias lintoni,orbfly1,Southern Central Andes
+White-rimmed Brushfinch,Atlapetes leucopis,wrbfin1,Southern Central Andes
+Galapagos Dove,Zenaida galapagoensis,galdov1,Galápagos Islands
+Galapagos Rail,Laterallus spilonota,galrai1,Galápagos Islands
+Galapagos Hawk,Buteo galapagoensis,galhaw1,Galápagos Islands
+Galapagos Flycatcher,Myiarchus magnirostris,galfly1,Galápagos Islands
+Floreana Mockingbird,Mimus trifasciatus,chamoc1,Galápagos Islands
+Galapagos Mockingbird,Mimus parvulus,galmoc1,Galápagos Islands
+Espanola Mockingbird,Mimus macdonaldi,hoomoc1,Galápagos Islands
+San Cristobal Mockingbird,Mimus melanotis,chamoc2,Galápagos Islands
 Green Warbler-Finch,Certhidea olivacea,warfin1,Galápagos Islands
-Vegetarian Finch ,Platyspiza crassirostris,vegfin2,Galápagos Islands
-Large Tree-Finch ,Camarhynchus psittacula,latfin1,Galápagos Islands
-Medium Tree-Finch ,Camarhynchus pauper,metfin1,Galápagos Islands
-Small Tree-Finch ,Camarhynchus parvulus,smtfin1,Galápagos Islands
-Mangrove Finch ,Camarhynchus heliobates,manfin1,Galápagos Islands
-Woodpecker Finch ,Camarhynchus pallidus,woofin1,Galápagos Islands
-Small Ground-Finch ,Geospiza fuliginosa,smgfin1,Galápagos Islands
-Medium Ground-Finch ,Geospiza fortis,megfin1,Galápagos Islands
-Large Ground-Finch ,Geospiza magnirostris,lagfin1,Galápagos Islands
-Common Cactus-Finch ,Geospiza scandens,cocfin3,Galápagos Islands
+Vegetarian Finch,Platyspiza crassirostris,vegfin2,Galápagos Islands
+Large Tree-Finch,Camarhynchus psittacula,latfin1,Galápagos Islands
+Medium Tree-Finch,Camarhynchus pauper,metfin1,Galápagos Islands
+Small Tree-Finch,Camarhynchus parvulus,smtfin1,Galápagos Islands
+Mangrove Finch,Camarhynchus heliobates,manfin1,Galápagos Islands
+Woodpecker Finch,Camarhynchus pallidus,woofin1,Galápagos Islands
+Small Ground-Finch,Geospiza fuliginosa,smgfin1,Galápagos Islands
+Medium Ground-Finch,Geospiza fortis,megfin1,Galápagos Islands
+Large Ground-Finch,Geospiza magnirostris,lagfin1,Galápagos Islands
+Common Cactus-Finch,Geospiza scandens,cocfin3,Galápagos Islands
 Sharp-beaked Ground-Finch,Geospiza difficilis,shbgrf3,Galápagos Islands
 Española Ground-Finch,Geospiza conirostris,larcaf2,Galápagos Islands
 Galapagos Penguin,Spheniscus mendiculus,galpen1,Galápagos Islands
@@ -53,76 +53,164 @@ Brujo Flycatcher,Pyrocephalus nanus,brufly1,Galápagos Islands
 Genovesa Ground-Finch,Geospiza acutirostris,shbgrf2,Galápagos Islands
 Genovesa Cactus-Finch,Geospiza propinqua,gencaf1,Galápagos Islands
 Vampire Ground-Finch,Geospiza septentrionalis,shbgrf1,Galápagos Islands
-Olive-spotted Hummingbird ,Talaphorus chlorocercus,olshum1,Upper Amazon-Napo lowlands
-Brown Nunlet ,Nonnula brunnea,bronun1,Upper Amazon-Napo lowlands
-Cocha Antshrike ,Thamnophilus praecox,cocant1,Upper Amazon-Napo lowlands
-White-masked Antbird ,Pithys castaneus,whmant2,Upper Amazon-Napo lowlands
-Black-tailed Antbird ,Myrmoborus melanurus,bltant1,Upper Amazon-Napo lowlands
-Ochre-striped Antpitta ,Grallaria dignissima,ocsant1,Upper Amazon-Napo lowlands
-Orange-crested Manakin ,Heterocercus aurantiivertex,orcman3,Upper Amazon-Napo lowlands
-Golden-winged Tody-flycatcher ,Poecilotriccus calopterus,gowtof1,Upper Amazon-Napo lowlands
-Olive-chested Flycatcher ,Myiophobus cryptoxanthus,olcfly1,Upper Amazon-Napo lowlands
+Olive-spotted Hummingbird,Talaphorus chlorocercus,olshum1,Upper Amazon-Napo lowlands
+Brown Nunlet,Nonnula brunnea,bronun1,Upper Amazon-Napo lowlands
+Cocha Antshrike,Thamnophilus praecox,cocant1,Upper Amazon-Napo lowlands
+White-masked Antbird,Pithys castaneus,whmant2,Upper Amazon-Napo lowlands
+Black-tailed Antbird,Myrmoborus melanurus,bltant1,Upper Amazon-Napo lowlands
+Ochre-striped Antpitta,Grallaria dignissima,ocsant1,Upper Amazon-Napo lowlands
+Orange-crested Manakin,Heterocercus aurantiivertex,orcman3,Upper Amazon-Napo lowlands
+Golden-winged Tody-flycatcher,Poecilotriccus calopterus,gowtof1,Upper Amazon-Napo lowlands
+Olive-chested Flycatcher,Myiophobus cryptoxanthus,olcfly1,Upper Amazon-Napo lowlands
 Iquitos Gnatcatcher,Polioptila clementsi,iqugna1,Upper Amazon-Napo lowlands
-Ecuadorian Cacique ,Cacicus sclateri,ecucac1,Upper Amazon-Napo lowlands
-Berlepsch's Tinamou ,Crypturellus berlepschi, bertin1,Chocó
-Baudo Guan ,Penelope ortoni, baugua1,Chocó
-Dark-backed Wood-quail ,Odontophorus melanonotus, dbwqua1,Chocó
-Dusky Pigeon ,Patagioenas goodsoni, duspig2,Chocó
-Choco Poorwill ,Nyctiphrynus rosenbergi, chopoo1,Chocó
-Gorgeted Sunangel ,Heliangelus strophianus, gorsun1,Chocó
-Violet-tailed Sylph ,Aglaiocercus coelestis, vitsyl1,Chocó
-Hoary Puffleg ,Haplophaedia lugens, hoapuf1,Chocó
-Turquoise-throated Puffleg ,Eriocnemis godini, tutpuf1,Chocó
-Colorful Puffleg ,Eriocnemis mirabilis, colpuf2,Chocó
-Brown Inca ,Coeligena wilsoni, broinc2,Chocó
-Velvet-purple Coronet ,Boissonneaua jardini, vepcor1,Chocó
-Purple-bibbed Whitetip ,Urosticte benjamini, pubwhi1,Chocó
-Empress Brilliant ,Heliodoxa imperatrix, empbri1,Chocó
-Purple-chested Hummingbird ,Polyerata rosenbergi, puchum1,Chocó
-Banded Ground-cuckoo ,Neomorphus radiolosus, bagcuc1,Chocó
-Blue-tailed Trogon,Trogon comptus, buttro1,Chocó
-Sooty-capped Puffbird ,Bucco noanamae,socpuf1,Chocó
-Choco Toucan ,Ramphastos brevis, chotou1,Chocó
-Plate-billed Mountain-toucan ,Andigena laminirostris, pbmtou1,Chocó
-Orange-fronted Barbet ,Capito squamatus, orfbar1,Chocó
-Five-colored Barbet ,Capito quinticolor, ficbar1,Chocó
-Toucan Barbet ,Semnornis ramphastinus, toubar1,Chocó
-Lita Woodpecker ,Piculus litae, litwoo1,Chocó
-Choco Woodpecker ,Dryobates chocoensis,chowoo1,Chocó
-Plumbeous Forest-falcon ,Micrastur plumbeus, plffal1,Chocó
-Rose-faced Parrot ,Pyrilia pulchra, rofpar2,Chocó
-Bicolored Antvireo ,Dysithamnus occidentalis, bicant4,Chocó
-Stub-tailed Antbird ,Sipia berlepschi, sttant3,Chocó
-Rufous-crowned Pittasoma ,Pittasoma rufopileatum, rucant3,Chocó
-Yellow-breasted Antpitta ,Grallaria flavotincta, yebant1,Chocó
-Narino Tapaculo ,Scytalopus vicinior, nartap2,Chocó
-Uniform Treehunter ,Thripadectes ignobilis, unitre1,Chocó
-Fulvous-dotted Treerunner ,Margarornis stellatus, fudtre1,Chocó
-Club-winged Manakin ,Machaeropterus deliciosus, clwman1,Chocó
-Yellow-headed Manakin ,Chloropipo flavicapilla, yehman2,Chocó
-Orange-breasted Fruiteater ,Pipreola jucunda, orbfru1,Chocó
-Long-wattled Umbrellabird ,Cephalopterus penduliger, lowumb1,Chocó
-Choco Vireo ,Vireo masteri, chovir1,Chocó
-Beautiful Jay ,Cyanolyca pulchra, beajay1,Chocó
-Munchique Wood-wren ,Henicorhina negreti, munwow1,Chocó
-Black Solitaire ,Entomodestes coracinus, blasol1,Chocó
-Yellow-collared Chlorophonia ,Chlorophonia flavirostris, yecchl1,Chocó
-Tanager Finch ,Oreothraupis arremonops, tanfin1,Chocó
-Dusky Bush-tanager ,Chlorospingus semifuscus, dubtan1,Chocó
-Red-bellied Grackle ,Hypopyrrhus pyrohypogaster, rebgra1,Chocó
-Crested Ant-tanager ,Habia cristata, cratan1,Chocó
-Purplish-mantled Tanager ,Iridosornis porphyrocephalus, pumtan2,Chocó
-Black-chinned Mountain-tanager ,Anisognathus notabilis, bcmtan2,Chocó
-Glistening-green Tanager ,Chlorochrysa phoenicotis, glgtan1,Chocó
-Multicolored Tanager ,Chlorochrysa nitidissima, multan1,Chocó
-Yellow-green Tanager ,Bangsia flavovirens, ygbtan1,Chocó
-Gold-ringed Tanager ,Bangsia aureocincta, gortan1,Chocó
-Moss-backed Tanager ,Bangsia edwardsi, mobtan1,Chocó
-Golden-chested Tanager ,Bangsia rothschildi, goctan1,Chocó
-Black-and-gold Tanager ,Bangsia melanochlamys, bagtan2,Chocó
-Blue-whiskered Tanager ,Tangara johannae, blwtan1,Chocó
-Scarlet-and-white Tanager ,Chrysothlypis salmoni, sawtan1,Chocó
-Scarlet-breasted Dacnis ,Dacnis berlepschi, scbdac1,Chocó
-Turquoise Dacnis ,Dacnis hartlaubi, turdac1,Chocó
-Indigo Flowerpiercer ,Diglossa indigotica, indflo1,Chocó
-Chestnut-bellied Flowerpiercer ,Diglossa gloriosissima, chbflo1,Chocó
+Ecuadorian Cacique,Cacicus sclateri,ecucac1,Upper Amazon-Napo lowlands
+Berlepsch's Tinamou,Crypturellus berlepschi,bertin1,Chocó
+Baudo Guan,Penelope ortoni,baugua1,Chocó
+Dark-backed Wood-quail,Odontophorus melanonotus,dbwqua1,Chocó
+Dusky Pigeon,Patagioenas goodsoni,duspig2,Chocó
+Choco Poorwill,Nyctiphrynus rosenbergi,chopoo1,Chocó
+Gorgeted Sunangel,Heliangelus strophianus,gorsun1,Chocó
+Violet-tailed Sylph,Aglaiocercus coelestis,vitsyl1,Chocó
+Hoary Puffleg,Haplophaedia lugens,hoapuf1,Chocó
+Turquoise-throated Puffleg,Eriocnemis godini,tutpuf1,Chocó
+Colorful Puffleg,Eriocnemis mirabilis,colpuf2,Chocó
+Brown Inca,Coeligena wilsoni,broinc2,Chocó
+Velvet-purple Coronet,Boissonneaua jardini,vepcor1,Chocó
+Purple-bibbed Whitetip,Urosticte benjamini,pubwhi1,Chocó
+Empress Brilliant,Heliodoxa imperatrix,empbri1,Chocó
+Purple-chested Hummingbird,Polyerata rosenbergi,puchum1,Chocó
+Banded Ground-cuckoo,Neomorphus radiolosus,bagcuc1,Chocó
+Blue-tailed Trogon,Trogon comptus,buttro1,Chocó
+Sooty-capped Puffbird,Bucco noanamae,socpuf1,Chocó
+Choco Toucan,Ramphastos brevis,chotou1,Chocó
+Plate-billed Mountain-toucan,Andigena laminirostris,pbmtou1,Chocó
+Orange-fronted Barbet,Capito squamatus,orfbar1,Chocó
+Five-colored Barbet,Capito quinticolor,ficbar1,Chocó
+Toucan Barbet,Semnornis ramphastinus,toubar1,Chocó
+Lita Woodpecker,Piculus litae,litwoo1,Chocó
+Choco Woodpecker,Dryobates chocoensis,chowoo1,Chocó
+Plumbeous Forest-falcon,Micrastur plumbeus,plffal1,Chocó
+Rose-faced Parrot,Pyrilia pulchra,rofpar2,Chocó
+Bicolored Antvireo,Dysithamnus occidentalis,bicant4,Chocó
+Stub-tailed Antbird,Sipia berlepschi,sttant3,Chocó
+Rufous-crowned Pittasoma,Pittasoma rufopileatum,rucant3,Chocó
+Yellow-breasted Antpitta,Grallaria flavotincta,yebant1,Chocó
+Narino Tapaculo,Scytalopus vicinior,nartap2,Chocó
+Uniform Treehunter,Thripadectes ignobilis,unitre1,Chocó
+Fulvous-dotted Treerunner,Margarornis stellatus,fudtre1,Chocó
+Club-winged Manakin,Machaeropterus deliciosus,clwman1,Chocó
+Yellow-headed Manakin,Chloropipo flavicapilla,yehman2,Chocó
+Orange-breasted Fruiteater,Pipreola jucunda,orbfru1,Chocó
+Long-wattled Umbrellabird,Cephalopterus penduliger,lowumb1,Chocó
+Choco Vireo,Vireo masteri,chovir1,Chocó
+Beautiful Jay,Cyanolyca pulchra,beajay1,Chocó
+Munchique Wood-wren,Henicorhina negreti,munwow1,Chocó
+Black Solitaire,Entomodestes coracinus,blasol1,Chocó
+Yellow-collared Chlorophonia,Chlorophonia flavirostris,yecchl1,Chocó
+Tanager Finch,Oreothraupis arremonops,tanfin1,Chocó
+Dusky Bush-tanager,Chlorospingus semifuscus,dubtan1,Chocó
+Red-bellied Grackle,Hypopyrrhus pyrohypogaster,rebgra1,Chocó
+Crested Ant-tanager,Habia cristata,cratan1,Chocó
+Purplish-mantled Tanager,Iridosornis porphyrocephalus,pumtan2,Chocó
+Black-chinned Mountain-tanager,Anisognathus notabilis,bcmtan2,Chocó
+Glistening-green Tanager,Chlorochrysa phoenicotis,glgtan1,Chocó
+Multicolored Tanager,Chlorochrysa nitidissima,multan1,Chocó
+Yellow-green Tanager,Bangsia flavovirens,ygbtan1,Chocó
+Gold-ringed Tanager,Bangsia aureocincta,gortan1,Chocó
+Moss-backed Tanager,Bangsia edwardsi,mobtan1,Chocó
+Golden-chested Tanager,Bangsia rothschildi,goctan1,Chocó
+Black-and-gold Tanager,Bangsia melanochlamys,bagtan2,Chocó
+Blue-whiskered Tanager,Tangara johannae,blwtan1,Chocó
+Scarlet-and-white Tanager,Chrysothlypis salmoni,sawtan1,Chocó
+Scarlet-breasted Dacnis,Dacnis berlepschi,scbdac1,Chocó
+Turquoise Dacnis,Dacnis hartlaubi,turdac1,Chocó
+Indigo Flowerpiercer,Diglossa indigotica,indflo1,Chocó
+Chestnut-bellied Flowerpiercer,Diglossa gloriosissima,chbflo1,Chocó
+Chestnut Wood-quail,Odontophorus hyperythrus,chwqua1,Northern Central Andes
+Black-thighed Puffleg,Eriocnemis derbyi,bltpuf1,Northern Central Andes
+Rusty-faced Parrot,Hapalopsittaca amazonina,rufpar2,Northern Central Andes
+Indigo-winged Parrot,Hapalopsittaca fuertesi,inwpar1,Northern Central Andes
+Giant Antpitta,Grallaria gigantea,giaant1,Northern Central Andes
+Bicolored Antpitta,Grallaria rufocinerea,bicant3,Northern Central Andes
+Brown-banded Antpitta,Grallaria milleri,brbant1,Northern Central Andes
+Crescent-faced Antpitta,Grallaricula lineifrons,crfant1,Northern Central Andes
+White-rimmed Brushfinch,Atlapetes leucopis,wrbfin1,Northern Central Andes
+Ecuadorian Piedtail,Phlogophilus hemileucurus,ecupie1,Ecuador-Peru East Andes
+Rufous-vented Whitetip,Urosticte ruficrissa,ruvwhi1,Ecuador-Peru East Andes
+Pink-throated Brilliant,Heliodoxa gularis,pitbri1,Ecuador-Peru East Andes
+Napo Sabrewing,Campylopterus villaviscensio,napsab1,Ecuador-Peru East Andes
+Cinnamon Screech-Owl,Megascops petersoni,cinsco1,Ecuador-Peru East Andes
+Coppery-chested Jacamar,Galbula pastazae,cocjac2,Ecuador-Peru East Andes
+Speckle-chested Piculet,Picumnus steindachneri,spcpic1,Ecuador-Peru East Andes
+White-necked Parakeet,Pyrrhura albipectus,whnpar1,Ecuador-Peru East Andes
+Bicolored Antvireo,Dysithamnus occidentalis,bicant4,Ecuador-Peru East Andes
+Peruvian Antpitta,Grallaricula peruviana,perant1,Ecuador-Peru East Andes
+Equatorial Greytail,Xenerpestes singularis,equgra1,Ecuador-Peru East Andes
+Yellow-headed Manakin,Chloropipo flavicapilla,yehman2,Ecuador-Peru East Andes
+Black-chested Fruiteater,Pipreola lubomirskii,blcfru1,Ecuador-Peru East Andes
+Masked Fruiteater,Pipreola pulchra,masfru1,Ecuador-Peru East Andes
+Ecuadorian Tyrannulet,Phylloscartes gualaquizae,ecutyr1,Ecuador-Peru East Andes
+Red-billed Tyrannulet,Zimmerius cinereicapilla,rebtyr2,Ecuador-Peru East Andes
+Green-throated Tanager,Stilpnia argyrofenges,gnttan1,Ecuador-Peru East Andes
+Pale-browed Tinamou,Crypturellus transfasciatus,pabtin1,Tumbesian region
+White-winged Guan,Penelope albipennis,whwgua1,Tumbesian region
+Rufous-headed Chachalaca,Ortalis erythroptera,ruhcha1,Tumbesian region
+Ochre-bellied Dove,Leptotila ochraceiventris,ocbdov1,Tumbesian region
+Ecuadorian Ground Dove,Columbina buckleyi,ecgdov1,Tumbesian region
+Scrub Nightjar,Nyctidromus anthonyi,scrnig1,Tumbesian region
+Short-tailed Woodstar,Myrmia micrura,shtwoo1,Tumbesian region
+Esmeraldas Woodstar,Chaetocercus berlepschi,esmwoo2,Tumbesian region
+Tumbes Hummingbird,Thaumasius baeri,tumhum1,Tumbesian region
+Gray-backed Hawk,Pseudastur occidentalis,gybhaw2,Tumbesian region
+Ecuadorian Piculet,Picumnus sclateri,ecupic1,Tumbesian region
+Gray-cheeked Parakeet,Brotogeris pyrrhoptera,gycpar1,Tumbesian region
+Pacific Parrotlet,Forpus coelestis,pacpar2,Tumbesian region
+El Oro Parakeet,Pyrrhura orcesi,elopar1,Tumbesian region
+Red-masked Parakeet,Psittacara erythrogenys,rempar,Tumbesian region
+Chapman's Antshrike,Thamnophilus zarumae,chaant1,Tumbesian region
+Collared Antshrike,Thamnophilus bernardi,colant1,Tumbesian region
+Gray-headed Antbird,Ampelornis griseiceps,gyhant1,Tumbesian region
+Elegant Crescentchest,Melanopareia elegans,elecre1,Tumbesian region
+Watkins's Antpitta,Grallaria watkinsi,watant1,Tumbesian region
+Ecuadorian Tapaculo,Scytalopus robbinsi,ecutap1,Tumbesian region
+Coastal Miner,Geositta peruviana,coamin1,Tumbesian region
+Surf Cinclodes,Cinclodes taczanowskii,surcin1,Tumbesian region
+Rufous-necked Foliage-gleaner,Syndactyla ruficollis,rnfgle1,Tumbesian region
+Henna-hooded Foliage-gleaner,Clibanornis erythrocephalus,hhfgle1,Tumbesian region
+Blackish-headed Spinetail,Synallaxis tithys,blhspi1,Tumbesian region
+Necklaced Spinetail,Synallaxis stictothorax,necspi1,Tumbesian region
+Peruvian Plantcutter,Phytotoma raimondii,perpla1,Tumbesian region
+Slaty Becard,Pachyramphus spodiurus,slabec1,Tumbesian region
+Pacific Elaenia,Myiopagis subplacens,pacela1,Tumbesian region
+Gray-and-white Tyrannulet,Pseudelaenia leucospodia,gawtyr2,Tumbesian region
+Piura Chat-Tyrant,Ochthoeca piurae,pictyr1,Tumbesian region
+Tumbes Chat-Tyrant,Ochthoeca salvini,tumtyr2,Tumbesian region
+Gray-breasted Flycatcher,Lathrotriccus griseipectus,gybfly1,Tumbesian region
+Baird's Flycatcher,Myiodynastes bairdii,baifly1,Tumbesian region
+Rufous Flycatcher,Myiarchus semirufus,ruffly1,Tumbesian region
+Sooty-crowned Flycatcher,Myiarchus phaeocephalus,socfly2,Tumbesian region
+White-tailed Jay,Cyanocorax mystacalis,whtjay2,Tumbesian region
+Superciliated Wren,Cantorchilus superciliaris,supwre1,Tumbesian region
+Ecuadorian Thrush,Turdus maculirostris,ecuthr1,Tumbesian region
+Plumbeous-backed Thrush,Turdus reevei,plbthr2,Tumbesian region
+Saffron Siskin,Spinus siemiradzkii,safsis1,Tumbesian region
+Tumbes Sparrow,Rhynchospiza stolzmanni,tumspa1,Tumbesian region
+Black-capped Sparrow,Arremon abeillei,blcspa2,Tumbesian region
+White-headed Brushfinch,Atlapetes albiceps,whbfin1,Tumbesian region
+Pale-headed Brushfinch,Atlapetes pallidiceps,phbfin1,Tumbesian region
+Bay-crowned Brushfinch,Atlapetes seebohmi,bcbfin1,Tumbesian region
+White-edged Oriole,Icterus graceannae,wheori1,Tumbesian region
+Gray-and-gold Warbler,Myiothlypis fraseri,gagwar2,Tumbesian region
+Three-banded Warbler,Basileuterus trifasciatus,thbwar2,Tumbesian region
+Black-cowled Saltator,Saltator nigriceps,blcsal1,Tumbesian region
+Crimson-breasted Finch,Rhodospingus cruentus,crbfin1,Tumbesian region
+Drab Seedeater,Sporophila simplex,drasee1,Tumbesian region
+Cinereous Finch,Piezorina cinerea,cinfin1,Tumbesian region
+Sulphur-throated Finch,Sicalis taczanowskii,sutfin1,Tumbesian region
+Royal Sunangel,Heliangelus regalis,roysun1,Andean ridge-top forests
+Long-whiskered Owlet,Xenoglaux loweryi,lowowl1,Andean ridge-top forests
+Ash-throated Antwren,Herpsilochmus parkeri,astant1,Andean ridge-top forests
+Ochre-fronted Antpitta,Grallaricula ochraceifrons,ocfant1,Andean ridge-top forests
+Cinnamon-breasted Tody-Tyrant,Hemitriccus cinnamomeipectus,cbttyr1,Andean ridge-top forests
+Bar-winged Wood-Wren,Henicorhina leucoptera,bwwwre1,Andean ridge-top forests
+Orange-throated Tanager,Wetmorethraupis sterrhopteron,orttan1,Andean ridge-top forests

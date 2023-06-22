@@ -1,6 +1,6 @@
 [
     {
-        "name": "Ecuador endemics",
+        "name": "Ecuador mainland endemics",
         "countries": "Ecuador"
     },
     {
@@ -14,19 +14,39 @@
         "countries": "Colombia,Ecuador,Peru"
     },
     {
+        "name": "Northern Central Andes",
+        "url":"http://datazone.birdlife.org/eba/factsheet/44",
+        "countries": "Colombia,Ecuador"
+    },
+    {
+        "name": "Ecuador-Peru East Andes",
+        "url":"http://datazone.birdlife.org/eba/factsheet/45",
+        "countries": "Colombia,Ecuador,Peru"
+    },    
+    {
+        "name": "Upper Amazon-Napo lowlands",
+        "url":"http://datazone.birdlife.org/eba/factsheet/46",
+        "countries": "Brazil,Colombia,Ecuador,Peru"
+    },
+    {
+        "name": "Tumbesian region",
+        "url":"http://datazone.birdlife.org/eba/factsheet/47",
+        "countries": "Ecuador,Peru"
+    },
+    {
         "name": "Southern Central Andes",
         "url":"http://datazone.birdlife.org/eba/factsheet/48",
         "countries": "Ecuador,Peru"
     },
     {
+        "name": "Andean ridge-top forests",
+        "url":"http://datazone.birdlife.org/eba/factsheet/50",
+        "countries": "Ecuador,Peru"
+    },    
+    {
         "name": "Galápagos Islands",
         "url":"http://datazone.birdlife.org/eba/factsheet/43",
         "countries": "Ecuador"
-    },
-    {
-        "name": "Upper Amazon-Napo lowlands",
-        "url":"http://datazone.birdlife.org/eba/factsheet/46",
-        "countries": "Brazil,Colombia,Ecuador,Peru"
     }
 
 ]

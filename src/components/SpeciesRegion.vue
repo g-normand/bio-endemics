@@ -55,7 +55,6 @@
 <script setup>
 import { eventBus } from "../main";
 import species_list from "../assets/species_list.json";
-import { BIcon, BIconSquare } from 'bootstrap-vue';
 </script>
 
 <script>
