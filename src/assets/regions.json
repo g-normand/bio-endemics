@@ -1,17 +1,32 @@
 [
     {
-        "name": "Ecuador endemics"
+        "name": "Ecuador endemics",
+        "countries": "Ecuador"
+    },
+    {
+        "name": "Chocó",
+        "url":"http://datazone.birdlife.org/eba/factsheet/42",
+        "countries": "Colombia,Ecuador"
     },
     {
         "name": "Central Andean páramo",
-        "url":"http://datazone.birdlife.org/eba/factsheet/77"
+        "url":"http://datazone.birdlife.org/eba/factsheet/77",
+        "countries": "Colombia,Ecuador,Peru"
     },
     {
         "name": "Southern Central Andes",
-        "url":"http://datazone.birdlife.org/eba/factsheet/48"
+        "url":"http://datazone.birdlife.org/eba/factsheet/48",
+        "countries": "Ecuador,Peru"
     },
     {
         "name": "Galápagos Islands",
-        "url":"http://datazone.birdlife.org/eba/factsheet/43"
+        "url":"http://datazone.birdlife.org/eba/factsheet/43",
+        "countries": "Ecuador"
+    },
+    {
+        "name": "Upper Amazon-Napo lowlands",
+        "url":"http://datazone.birdlife.org/eba/factsheet/46",
+        "countries": "Brazil,Colombia,Ecuador,Peru"
     }
+
 ]
