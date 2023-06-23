@@ -15,11 +15,11 @@
             </div>
             <div class="col-6">
               <h4>2. Upload your eBird File</h4>
-              <p>Import your <code>MyEBirdData.csv</code> using the upload file below. Note that the
+              <p>Import your <code>MyEBirdData.csv</code> (or the ebird zip) using the upload file below. Note that the
                 file is never sent to our server, only used in your browser.</p>
                   <div class="mb-3">
-                  <input class="form-control" type="file" id="uploadMyEBirdData" @change="uploadFile" accept=".csv" >
-                  </div>
+                  <input class="form-control" type="file" id="uploadMyEBirdData" @change="uploadFile" accept=".csv, .zip" >
+              </div>
               <div class="progress mt-4" id="MyPg" v-show="showMyPg">
                 <div ref="pgbar" id="MyPgBar" class="progress-bar progress-bar-striped progress-bar-animated"
                   role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
@@ -38,6 +38,7 @@
 
 <script>
 import axios from 'axios';
+import JSZip from 'jszip';
 import { eventBus } from "../main";
 import UserData from "./userdata.js"
 
@@ -53,7 +54,26 @@ export default {
   methods: {
     uploadFile(event) {
         let file = event.target.files[0];
-        this.processFile( file, file.size );
+        if (file.type == 'application/zip') {
+          const jszip = new JSZip()
+          jszip.loadAsync(file).then((zip) => {
+            Object.values(zip.files)[0].async('text').then(csvData => {
+                const fileType = { type: 'text/csv' };
+                const blob = new Blob([csvData], fileType);
+                const csvFile = new File([blob], 'temp_ebird.csv', {
+                  type: fileType.type,
+                  lastModified: Date.now()
+                });
+                this.processFile( csvFile, csvFile.size );    
+            })
+          })
+        }
+        else if (file.type == 'text/csv') {
+          this.processFile( file, file.size );
+        }
+        else {
+          alert('File is not a CSV');
+        }
       },
     processFile( file, size ){
       var percent = 0;
