@@ -3,11 +3,11 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm count"><img class="icon-bottom" src="../assets/bird-albatross-flying-shape-2.png">
-                    <span class="nb_counts">{{ nb_species }} </span><br>Species observed</div>
+                    <span class="nb_counts">{{ nb_species }} </span>Species observed</div>
                 <div class="col-sm count"><img class="icon-bottom" src="../assets/list.png">
-                    <span class="nb_counts">{{ nb_checklists }}</span><br>Checklists</div>
+                    <span class="nb_counts">{{ nb_checklists }}</span>Checklists</div>
                 <div class="col-sm count"><img class="icon-bottom" src="../assets/binoculars-silhouette.png">
-                    <span class="nb_counts">{{ nb_obs }}</span><br>Observations</div>
+                    <span class="nb_counts">{{ nb_obs }}</span>Observations</div>
             </div>
         </div>
     </div>

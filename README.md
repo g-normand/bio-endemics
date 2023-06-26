@@ -16,6 +16,7 @@ npm run dev
 
 FOR PROD:
 npm run build
+sed -i 's/\/assets/assets/g' dist/index.html
 scp -r dist/* guiguide@ssh-guiguide.alwaysdata.net:/home/guiguide/www/bio_endemics/
 ```
 

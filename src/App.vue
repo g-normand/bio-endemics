@@ -7,7 +7,7 @@ import regions from "./assets/regions.json";
 
 <template>
   <UploadFile />
-  <b-button-group class="w-100 text-light">
+  <b-button-group class="w-100 text-light" id="region-group">
     <b-button
       squared
       v-for="(r, i) in regions"
