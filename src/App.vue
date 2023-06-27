@@ -8,22 +8,23 @@ import regions from "./assets/regions.json";
 <template>
   <UploadFile />
   <div>
-    <b-button squared v-b-toggle.collapse-regions class="regions-button">See regions</b-button>
-    <b-collapse id="collapse-regions" class="mt-2">
-      <b-card>
-        <b-button-group class="w-100 text-light" id="region-group">
-          <b-button
-            squared
-            v-for="(r, i) in regions"
-            :key="r.region"
-            class="regions-button"
-          @click="changeRegion(r)">
-            <b-icon icon="binoculars" />
-            {{ r.name }}
-          </b-button>
-        </b-button-group>
-      </b-card>
-    </b-collapse>
+
+    <b-button squared v-b-toggle.sidebar-regions class="regions-button">See regions</b-button>
+      <b-sidebar title="Regions" shadow id="sidebar-regions" class="mt-2">
+          <b-overlay rounded="sm">
+            <div class="px-3 py-2" id="region-group">
+            <b-button
+              squared
+              v-for="(r, i) in regions"
+              :key="r.region"
+              class="regions-button"
+              @click="changeRegion(r)">
+              <b-icon icon="binoculars" />
+              {{ r.name }}
+            </b-button>
+          </div>
+        </b-overlay>
+      </b-sidebar>
   </div>
 
   <SpeciesRegion :region=current_region />
@@ -41,11 +42,16 @@ export default {
   methods: {
     changeRegion(r) {
       this.current_region = r;
-      if (window.innerHeight < 760){
-        this.$root.$emit('bv::toggle::collapse', 'collapse-regions')
+      if (window.innerWidth < 760){
+        this.$root.$emit('bv::toggle::collapse', 'sidebar-regions')
       }
     }
-  }
+  },
+  mounted: function () {   
+    if (window.innerWidth > 760){
+      this.$root.$emit('bv::toggle::collapse', 'sidebar-regions')
+    }
+  },
 }
 
 

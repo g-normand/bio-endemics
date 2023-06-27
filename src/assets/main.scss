@@ -6,14 +6,17 @@ html, body, .initial-content{
 
 #region-group {margin-bottom: 10px;}
 
-@media only screen and (max-width: 767px) {
-  #region-group {
-    display: block;
-  }
-  
-  #region-group .btn {
-    float: none;
-    width: 100%;
+#region-group .btn {
+	float: none;
+	width: 100%;
+}
+
+@media only screen and (min-width: 767px) {
+	.nb_counts{
+	  line-height: 32px;
+	  font-size: 35px;
+	  font-weight: bold;
+	  padding: 10px;
   }
 }
 
@@ -84,11 +87,8 @@ html, body, .initial-content{
   }
 }
 @media only screen and (min-width: 767px) {
-	.nb_counts{
-	  line-height: 32px;
-	  font-size: 35px;
-	  font-weight: bold;
-	  padding: 10px;
+	#specieslist {
+	  margin-left:320px;
   }
   .count{
 	  padding: 20px;
