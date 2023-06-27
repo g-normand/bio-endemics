@@ -1,37 +1,27 @@
 <template>
-    <div id="ModalUpload" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-hidden="true" v-show="isModalVisible">
-    <div class="modal-lg modal-dialog">
-      <div class="modal-content">
-        <div class="modal-header">
-          <h2 class="modal-title">Which bio endemic birds have you seen? </h2>
+  <b-modal id="modal-upload" title="Which bio endemic birds have you seen?" title-class="modal-title" size="lg" hide-footer hide-header-close no-close-on-backdrop>
+    <h3>How does it work?</h3>
+    <div class="row">
+      <div class="col-6">
+        <h4>1. Download your data from eBird</h4>
+          <a role="button" class="btn btn-secondary mt-3 d-block mx-auto" href="https://ebird.org/downloadMyData"
+            target="_blank" id="dnwlo-btn">ebird.org/downloadMyData</a>
+      </div>
+      <div class="col-6">
+        <h4>2. Upload your eBird File</h4>
+        <p>Import your <code>MyEBirdData.csv</code> (or the ebird zip) using the upload file below. Note that the
+          file is never sent to our server, only used in your browser.</p>
+            <div class="mb-3">
+            <input class="form-control" type="file" id="uploadMyEBirdData" @change="uploadFile" accept=".csv, .zip" >
         </div>
-        <div class="modal-body">
-          <h3>How does it work?</h3>
-          <div class="row">
-            <div class="col-6">
-              <h4>1. Download your data from eBird</h4>
-                <a role="button" class="btn btn-secondary mt-3 d-block mx-auto" href="https://ebird.org/downloadMyData"
-                  target="_blank" id="dnwlo-btn">ebird.org/downloadMyData</a>
-            </div>
-            <div class="col-6">
-              <h4>2. Upload your eBird File</h4>
-              <p>Import your <code>MyEBirdData.csv</code> (or the ebird zip) using the upload file below. Note that the
-                file is never sent to our server, only used in your browser.</p>
-                  <div class="mb-3">
-                  <input class="form-control" type="file" id="uploadMyEBirdData" @change="uploadFile" accept=".csv, .zip" >
-              </div>
-              <div class="progress mt-4" id="MyPg" v-show="showMyPg">
-                <div ref="pgbar" id="MyPgBar" class="progress-bar progress-bar-striped progress-bar-animated"
-                  role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
-                </div>
-              </div>
-            </div>
+        <div class="progress mt-4" id="MyPg" v-show="showMyPg">
+          <div ref="pgbar" id="MyPgBar" class="progress-bar progress-bar-striped progress-bar-animated"
+            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
           </div>
-
         </div>
       </div>
     </div>
-  </div>
+  </b-modal>
 </template>
 
 
@@ -45,7 +35,6 @@ import UserData from "./userdata.js"
 export default {
   data() {
     return {
-      isModalVisible: true,
 	    showMyPg: false,
       userData : new UserData(),
       pgbar_width: '0%',
@@ -102,9 +91,9 @@ export default {
         complete: () => {
           this.userData = new UserData(data);
           eventBus.$emit("userdata-changed", this.userData);
-          this.isModalVisible = false;
 	        this.showMyPg = false;
-    },
+          this.$bvModal.hide('modal-upload');
+        },
     });
     },
 
@@ -119,6 +108,10 @@ export default {
           console.error(error);
         });      
     }
+    else{
+      this.$bvModal.show('modal-upload');
+    }
+
   },
 };
 

@@ -120,6 +120,10 @@ html, body, .initial-content{
 	height: 40px;
 }
 
+.modal-title{
+	font-size: calc(1.325rem + .9vw);
+}
+
 #dnwlo-btn:visited{
 	color:white;
 }
@@ -132,3 +136,11 @@ html, body, .initial-content{
 .icon-bottom{
 	vertical-align: initial;
 }
+
+
+.zozio {
+	height: 16px;
+  }
+  .zozio:hover {
+	filter: invert(46%) sepia(92%) saturate(491%) hue-rotate(49deg) brightness(97%) contrast(102%);
+  }
