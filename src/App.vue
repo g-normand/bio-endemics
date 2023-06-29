@@ -3,7 +3,7 @@ import SpeciesRegion from './components/SpeciesRegion.vue'
 import UploadFile from './components/UploadFile.vue'
 import FooterInfo from './components/FooterInfo.vue'
 import regions from "./assets/regions.json";
-import logo from "./assets/logo.svg";
+import logo_zoziologie from "./assets/logo_zoziologie.svg";
 </script>
 
 <template>
@@ -29,7 +29,7 @@ import logo from "./assets/logo.svg";
           <div class="d-flex bg-dark text-light align-items-center px-3 py-2 w-100 justify-content-between">
             Inspired by 
             <a href="https://zoziologie.raphaelnussbaumer.com/see-your-observations/" target="_blank" title="zoziologie.com"
-              ><b-img :src="logo" class="zozio"></b-img></a>
+              ><b-img :src="logo_zoziologie" class="zozio"></b-img></a>
           </div>
         </template>
       </b-sidebar>
@@ -43,7 +43,7 @@ import logo from "./assets/logo.svg";
 export default {
   data() {
     return {
-      logo: logo,
+      logo_zoziologie: logo_zoziologie,
       regions: regions,
       current_region: "Ecuador endemics",
     }

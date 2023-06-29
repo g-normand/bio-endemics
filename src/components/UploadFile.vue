@@ -1,5 +1,7 @@
 <template>
   <b-modal id="modal-upload" title="Which bio endemic birds have you seen?" title-class="modal-title" size="lg" hide-footer hide-header-close no-close-on-backdrop>
+    A bio endemic is a species only found in a precise bio-region. The species is not necessarily a national endemic, but it's specific to some area. 
+    More information on <a href="http://datazone.birdlife.org/eba">BirdLife</a>.
     <h3>How does it work?</h3>
     <div class="row">
       <div class="col-6">
