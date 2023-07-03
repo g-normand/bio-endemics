@@ -22,11 +22,19 @@ html, body, .initial-content{
   #sidebar-regions {
 	height: fit-content;
   }
+
+  #sidebar-regions .close{
+	display: none;
+  }
 }
 
-.page__footer{
+.page__footer, .sr-only{
 	display:none;
 }
+.b-sidebar-footer a{
+	color:white;
+}
+
 .fill { 
 	min-height: 100%;
 	height: 100%;
@@ -92,6 +100,11 @@ html, body, .initial-content{
 	font-size: 12px;
   }
 }
+
+#species_table th{
+	border-bottom-width: 0;
+}
+
 @media only screen and (min-width: 767px) {
 	#specieslist {
 	  margin-left:320px;

@@ -13,7 +13,7 @@
              :fields="[
                { key: 'seen', label: 'Seen', sortable: true },
                { key: 'common_name', label: 'Common name', sortable: true },
-               { key: 'lifelist', label: 'Life lists', sortable: true  },
+               { key: 'lifelist', label: 'Life lists'  },
              ]"
              :items="region_list"
              :tbody-tr-class="rowClass"

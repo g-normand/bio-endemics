@@ -14,7 +14,7 @@ import logo_zoziologie from "./assets/logo_zoziologie.svg";
     <b-button squared v-b-toggle.sidebar-regions class="regions-button" v-show="show_regions_button">See regions</b-button>
       <b-sidebar title="Regions" shadow id="sidebar-regions" class="mt-2">
           <b-overlay rounded="sm">
-            <div class="px-3 py-2" id="region-group">
+            <div class="py-2" id="region-group">
             <b-button
               squared
               v-for="(r, i) in regions"
