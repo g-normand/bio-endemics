@@ -7,7 +7,7 @@
            <h3>Your checklist for {{ region.name }} ({{nb_species_seen}} / {{ region_list.length }})</h3>
            <b v-if="region.url">More information about the region  : <a :href="region.url" 
                 target="_blank">here</a></b>
-           <b-table
+           <b-table id="species_table"
              hover             
              responsive
              :fields="[

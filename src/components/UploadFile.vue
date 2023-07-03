@@ -87,14 +87,26 @@ export default {
           percent = newPercent;
           handler.pause();
 
-          pgbar.style.width = percent + '%'; 
+          if (pgbar) {
+            pgbar.style.width = percent + '%'; 
+          }
           setTimeout(function(){handler.resume()},0)
         },
         complete: () => {
-          this.userData = new UserData(data);
-          eventBus.$emit("userdata-changed", this.userData);
+
+          const headers = { "X-eBirdApiToken" : "vcs68p4j67pt" };
+          fetch(
+            'https://api.ebird.org/v2/product/checklist/view/' + 
+              data[0]['Submission ID'], {headers}
+          )
+            .then((response) => response.json())
+            .then((json) => {
+              this.userData = new UserData(data, json['userDisplayName']);
+              eventBus.$emit("userdata-changed", this.userData);
+            });
 	        this.showMyPg = false;
           this.$bvModal.hide('modal-upload');
+
         },
     });
     },

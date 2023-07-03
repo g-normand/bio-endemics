@@ -3,8 +3,9 @@ export default class UserData {
     nb_species = '-';
     nb_obs = '-';
     nb_checklists = '-';
+    username = '';
  
-    constructor(data) 
+    constructor(data, username) 
     {
       if (data != undefined) {
         var checklists = data.reduce( (acc, cur) =>  acc.indexOf(cur['Submission ID'])<0 ? acc.concat(cur['Submission ID']) : acc , [] )
@@ -13,6 +14,7 @@ export default class UserData {
         this.nb_species = this.numberWithCommas(species.length);
         this.nb_obs = this.numberWithCommas(data.length);
         this.nb_checklists = this.numberWithCommas(checklists.length);
+        this.username = username;
      }
     } 
 

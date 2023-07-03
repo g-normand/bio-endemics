@@ -18,6 +18,10 @@ html, body, .initial-content{
 	  font-weight: bold;
 	  padding: 10px;
   }
+
+  #sidebar-regions {
+	height: fit-content;
+  }
 }
 
 .page__footer{
@@ -39,7 +43,6 @@ html, body, .initial-content{
 	flex: 1 1 auto;
 }
 .box .footer {
-	/*flex: 0 1 150px;*/
 	width: 100%;
 	background-color: #2A3A4D;
 	color: #92E9FF;
@@ -84,6 +87,9 @@ html, body, .initial-content{
   .count{
 	  padding: 10px;
 	  text-align: center;
+  }
+  #species_table td{
+	font-size: 12px;
   }
 }
 @media only screen and (min-width: 767px) {
