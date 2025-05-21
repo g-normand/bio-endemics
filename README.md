@@ -15,8 +15,7 @@ FOR DEV:
 npm run dev
 
 FOR PROD:
-npm run build
-scp -r dist/* guiguide@ssh-guiguide.alwaysdata.net:/home/guiguide/www/bio_endemics/
+make deploy
 ```
 
 To add regions:
